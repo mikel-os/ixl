@@ -17,7 +17,6 @@ ixlfd2path(int fd, char buf[], int nbuf)
 
 	c.i = SYSFD2PATH;
 	c.fd2path.fd = fd;
-	c.fd2path.buf = buf;
 	c.fd2path.nbuf = nbuf;
 
 	if(syspC2R(getixlfd(), &c, &r) < 0)
