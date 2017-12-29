@@ -17,7 +17,7 @@ operating system with research and educational purposes.
 ## License
 
 > Ixl - A nine-like file system for unix.  
-> Copyright &copy; 2016 Mikel Cazorla Pérez
+> Copyright &copy; 2016-2017 Mikel Cazorla Pérez
 >
 > Ixl is free software; you can redistribute it and/or modify
 > it under the terms of the GNU General Public License as published by
@@ -30,3 +30,8 @@ operating system with research and educational purposes.
 >
 > You should have received a copy of the GNU General Public License
 > along with Ixl. If not, see <http://www.gnu.org/licenses/>.
+>
+> Copyright years on Ixl (including source files)
+> may be listed using range notation,
+> indicating that every year in the range, inclusive,
+> is a copyrightable year that could otherwise be listed individually.
