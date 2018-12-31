@@ -48,6 +48,6 @@ main(int argc, char *argv[])
 		cat(0, 1);
 	else
 		for(i = 1; i < argc; i++)
-			catfile(argv[0], 1);
+			catfile(argv[i], 1);
 	exits(nil);
 }
