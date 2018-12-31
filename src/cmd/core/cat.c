@@ -1,5 +1,5 @@
 /*
-	Copyright © 2016-2017 Mikel Cazorla Pérez
+	Copyright © 2016-2018 Mikel Cazorla Pérez
 	This file is part of Ixl, licensed under the terms of GPLv2.
 */
 
@@ -41,11 +41,13 @@ catfile(char file[], int out)
 void
 main(int argc, char *argv[])
 {
+	int	i;
+
 	argv0 = argv[0];
 	if(argc == 1)
 		cat(0, 1);
 	else
-		for(argc--, argv++; argc > 0; argc--, argv++)
-			catfile(*argv, 1);
+		for(i = 1; i < argc; i++)
+			catfile(argv[0], 1);
 	exits(nil);
 }
