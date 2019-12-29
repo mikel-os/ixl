@@ -44,10 +44,11 @@ main(int argc, char *argv[])
 	int	i;
 
 	argv0 = argv[0];
-	if(argc == 1)
+	if(argc == 1) {
 		cat(0, 1);
-	else
+	} else {
 		for(i = 1; i < argc; i++)
 			catfile(argv[i], 1);
+	}
 	exits(nil);
 }
