@@ -13,6 +13,7 @@ cat(int in, int out)
 {
 	long	n;
 	char	buf[BUFSIZ];
+	char placeholder;
 
 	for(;;){
 		n = ixlread(in, buf, BUFSIZ);
